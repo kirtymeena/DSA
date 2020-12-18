@@ -10,7 +10,7 @@ import time
 
 def bubble_sort(arr):
     n=len(arr)
-    
+    j=0
     for i in range(n-1):
        j=i
        while j<n-1:
